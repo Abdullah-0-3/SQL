@@ -1,17 +1,18 @@
 create table information (
-	first_name VARCHAR(50),
-	last_name VARCHAR(50),
+	id BIGSERIAL NOT NULL PRIMARY KEY
+	first_name VARCHAR(50) NOT NULL,
+	last_name VARCHAR(50) NOT NULL,
 	department VARCHAR(50),
-	gender VARCHAR(50),
+	gender VARCHAR(50) NOT NULL,
 	email VARCHAR(50),
 	salary VARCHAR(50),
-	country VARCHAR(50),
+	country VARCHAR(50) NOT NULL,
 	city VARCHAR(50),
 	family_members INT,
 	car VARCHAR(50),
 	job_title VARCHAR(50),
-	date_of_birth DATE,
-	project_count INT
+	date_of_birth DATE NOT NULL,
+	project_count INT NOT NULL
 );
 insert into information (first_name, last_name, department, gender, email, salary, country, city, family_members, car, job_title, date_of_birth, project_count) values ('Vassili', 'Barfield', null, 'Male', 'vbarfield0@cbsnews.com', '$8958.13', 'Israel', 'Hod HaSharon', null, null, null, '16/10/2001', 686);
 insert into information (first_name, last_name, department, gender, email, salary, country, city, family_members, car, job_title, date_of_birth, project_count) values ('Riannon', 'McCloid', 'Business Development', 'Female', 'rmccloid1@jiathis.com', null, 'France', 'Vannes', 3, null, null, '18/9/2007', 240);
