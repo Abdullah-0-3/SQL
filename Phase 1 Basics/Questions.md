@@ -14,3 +14,16 @@ You need to write a SQL query to fetch all the data from the information table.
 | 3   | Rodrigo    | Nodin      | Research and Development| Male   | rnodin2@sun.com          | $6957.33  | Cambodia  | Kampong Speu | NULL           | Lexus | Environmental Tech  | 1991-09-17    | 259           |
 
 ---
+### Question 2: Filter by Country
+Write a query to retrieve the first_name, last_name, and country of all individuals where the country is 'France'.
+
+**Input Description:**
+- Filter the records where country is 'France'.
+- Return only the first_name, last_name, and country columns.
+
+**Example Output:**
+| first_name | last_name | country |
+|------------|-----------|---------|
+| Riannon    | McCloid   | France  |
+
+---
