@@ -27,3 +27,16 @@ Write a query to retrieve the first_name, last_name, and country of all individu
 | Riannon    | McCloid   | France  |
 
 ---
+### Question 3: Filter by Salary
+Write a query to retrieve all columns for individuals whose salary is greater than $8000.
+
+**Input Description:**
+- Filter the records where the salary column is greater than $8000.
+- Return all columns from the table.
+
+**Example Output:**
+| id  | first_name | last_name  | department | gender | email                  | salary    | country | city         | family_members | car   | job_title | date_of_birth | project_count |
+|-----|------------|------------|------------|--------|------------------------|-----------|---------|--------------|----------------|-------|-----------|---------------|---------------|
+| 1   | Vassili    | Barfield   | NULL       | Male   | vbarfield0@cbsnews.com | $8958.13  | Israel  | Hod HaSharon | NULL           | NULL  | NULL      | 2001-10-16    | 686           |
+
+---
