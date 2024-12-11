@@ -51,3 +51,15 @@ Write a query to count the total number of records in the information table.
 | 3             |
 
 ---
+### Question 5: Retrieve Unique Job Titles
+Write a query to fetch all unique job_title values from the information table.
+
+**Input Description:**
+- Return a list of distinct job_title values.
+**Example Output:**
+| job_title           |
+|---------------------|
+| NULL               |
+| Environmental Tech |
+
+---
