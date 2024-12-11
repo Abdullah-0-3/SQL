@@ -40,3 +40,14 @@ Write a query to retrieve all columns for individuals whose salary is greater th
 | 1   | Vassili    | Barfield   | NULL       | Male   | vbarfield0@cbsnews.com | $8958.13  | Israel  | Hod HaSharon | NULL           | NULL  | NULL      | 2001-10-16    | 686           |
 
 ---
+### Question 4: Count the Records
+Write a query to count the total number of records in the information table.
+
+**Input Description:**
+- Use an aggregate function to count the rows in the table.
+**Example Output:**
+| total_records |
+|---------------|
+| 3             |
+
+---
