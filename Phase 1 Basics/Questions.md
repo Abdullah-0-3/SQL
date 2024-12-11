@@ -63,3 +63,16 @@ Write a query to fetch all unique job_title values from the information table.
 | Environmental Tech |
 
 ---
+### Question 6: Retrieve Records with Null Values in Department
+Write a query to retrieve all columns for individuals where the department is NULL.
+
+**Input Description:**
+- Filter the rows where the department column has a NULL value.
+- Return all columns from the table.
+**Example Output:**
+| id  | first_name | last_name | department | gender | email                  | salary    | country | city         | family_members | car   | job_title | date_of_birth | project_count |
+|-----|------------|-----------|------------|--------|------------------------|-----------|---------|--------------|----------------|-------|-----------|---------------|---------------|
+| 1   | Vassili    | Barfield  | NULL       | Male   | vbarfield0@cbsnews.com | $8958.13  | Israel  | Hod HaSharon | NULL           | NULL  | NULL      | 2001-10-16    | 686           |
+
+
+---
