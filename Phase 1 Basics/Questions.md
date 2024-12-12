@@ -88,3 +88,10 @@ Write a query to retrieve all columns for individuals whose gender is 'Female'.
 | 2   | Riannon    | McCloid   | Business Development | Female | rmccloid1@jiathis.com | NULL   | France  | Vannes | 3              | NULL  | NULL      | 2007-09-18    | 240           |
 
 ---
+### Question 8: Retrieve Individuals by Minimum Project Count
+Write a query to fetch the first_name, last_name, and project_count for individuals whose project_count is greater than or equal to 500.
+
+**Input Description:**
+- Filter the records where project_count is >= 500.
+- Return the first_name, last_name, and project_count columns.
+**Example Output:**
