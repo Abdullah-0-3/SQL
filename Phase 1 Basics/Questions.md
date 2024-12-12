@@ -76,3 +76,15 @@ Write a query to retrieve all columns for individuals where the department is NU
 
 
 ---
+### Question 7: Retrieve Records for Specific Gender
+Write a query to retrieve all columns for individuals whose gender is 'Female'.
+
+**Input Description:**
+- Filter the rows where the gender column is 'Female'.
+- Return all columns from the table.
+**Example Output:**
+| id  | first_name | last_name | department           | gender | email                 | salary | country | city   | family_members | car   | job_title | date_of_birth | project_count |
+|-----|------------|-----------|----------------------|--------|-----------------------|--------|---------|--------|----------------|-------|-----------|---------------|---------------|
+| 2   | Riannon    | McCloid   | Business Development | Female | rmccloid1@jiathis.com | NULL   | France  | Vannes | 3              | NULL  | NULL      | 2007-09-18    | 240           |
+
+---
