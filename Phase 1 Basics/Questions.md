@@ -95,3 +95,23 @@ Write a query to fetch the first_name, last_name, and project_count for individu
 - Filter the records where project_count is >= 500.
 - Return the first_name, last_name, and project_count columns.
 **Example Output:**
+| first_name | last_name | project_count |
+|------------|-----------|---------------|
+| Vassili    | Barfield  | 686           |
+
+
+---
+### Question 9: Sort by Salary in Descending Order
+Write a query to retrieve all columns, sorted by the salary column in descending order.
+
+**Input Description:**
+- Sort the table by salary in descending order.
+- Return all columns.
+**Example Output:**
+| id  | first_name | last_name | department           | gender | email                  | salary    | country   | city         | family_members | car   | job_title           | date_of_birth | project_count |
+|-----|------------|-----------|----------------------|--------|------------------------|-----------|-----------|--------------|----------------|-------|---------------------|---------------|---------------|
+| 1   | Vassili    | Barfield  | NULL                 | Male   | vbarfield0@cbsnews.com | $8958.13  | Israel    | Hod HaSharon | NULL           | NULL  | NULL                | 2001-10-16    | 686           |
+| 3   | Rodrigo    | Nodin     | Research and Development | Male | rnodin2@sun.com          | $6957.33  | Cambodia  | Kampong Speu | NULL           | Lexus | Environmental Tech  | 1991-09-17    | 259           |
+| 2   | Riannon    | McCloid   | Business Development | Female | rmccloid1@jiathis.com    | NULL      | France    | Vannes       | 3              | NULL  | NULL                | 2007-09-18    | 240           |
+
+---
