@@ -45,6 +45,7 @@ Write a query to count the total number of records in the information table.
 
 **Input Description:**
 - Use an aggregate function to count the rows in the table.
+
 **Example Output:**
 | total_records |
 |---------------|
@@ -56,6 +57,7 @@ Write a query to fetch all unique job_title values from the information table.
 
 **Input Description:**
 - Return a list of distinct job_title values.
+
 **Example Output:**
 | job_title           |
 |---------------------|
@@ -69,6 +71,7 @@ Write a query to retrieve all columns for individuals where the department is NU
 **Input Description:**
 - Filter the rows where the department column has a NULL value.
 - Return all columns from the table.
+
 **Example Output:**
 | id  | first_name | last_name | department | gender | email                  | salary    | country | city         | family_members | car   | job_title | date_of_birth | project_count |
 |-----|------------|-----------|------------|--------|------------------------|-----------|---------|--------------|----------------|-------|-----------|---------------|---------------|
@@ -82,6 +85,7 @@ Write a query to retrieve all columns for individuals whose gender is 'Female'.
 **Input Description:**
 - Filter the rows where the gender column is 'Female'.
 - Return all columns from the table.
+
 **Example Output:**
 | id  | first_name | last_name | department           | gender | email                 | salary | country | city   | family_members | car   | job_title | date_of_birth | project_count |
 |-----|------------|-----------|----------------------|--------|-----------------------|--------|---------|--------|----------------|-------|-----------|---------------|---------------|
@@ -94,6 +98,7 @@ Write a query to fetch the first_name, last_name, and project_count for individu
 **Input Description:**
 - Filter the records where project_count is >= 500.
 - Return the first_name, last_name, and project_count columns.
+
 **Example Output:**
 | first_name | last_name | project_count |
 |------------|-----------|---------------|
@@ -107,7 +112,9 @@ Write a query to retrieve all columns, sorted by the salary column in descending
 **Input Description:**
 - Sort the table by salary in descending order.
 - Return all columns.
+
 **Example Output:**
+
 | id  | first_name | last_name | department           | gender | email                  | salary    | country   | city         | family_members | car   | job_title           | date_of_birth | project_count |
 |-----|------------|-----------|----------------------|--------|------------------------|-----------|-----------|--------------|----------------|-------|---------------------|---------------|---------------|
 | 1   | Vassili    | Barfield  | NULL                 | Male   | vbarfield0@cbsnews.com | $8958.13  | Israel    | Hod HaSharon | NULL           | NULL  | NULL                | 2001-10-16    | 686           |
@@ -121,7 +128,9 @@ Write a query to fetch all columns for individuals who own a Lexus.
 **Input Description:**
 - Filter the rows where the car column is 'Lexus'.
 - Return all columns.
+
 **Example Output:**
+
 | id  | first_name | last_name | department             | gender | email            | salary    | country   | city         | family_members | car   | job_title           | date_of_birth | project_count |
 |-----|------------|-----------|------------------------|--------|------------------|-----------|-----------|--------------|----------------|-------|---------------------|---------------|---------------|
 | 3   | Rodrigo    | Nodin     | Research and Development | Male   | rnodin2@sun.com | $6957.33  | Cambodia  | Kampong Speu | NULL           | Lexus | Environmental Tech  | 1991-09-17    | 259           |
@@ -132,6 +141,7 @@ Write a query to count the total number of individuals who do not own a car (car
 
 **Input Description:**
 - Count the rows where the car column has a NULL value.
+
 **Example Output:**
 | total_null_cars |
 |-----------------|
