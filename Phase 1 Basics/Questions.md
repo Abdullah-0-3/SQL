@@ -127,3 +127,14 @@ Write a query to fetch all columns for individuals who own a Lexus.
 | 3   | Rodrigo    | Nodin     | Research and Development | Male   | rnodin2@sun.com | $6957.33  | Cambodia  | Kampong Speu | NULL           | Lexus | Environmental Tech  | 1991-09-17    | 259           |
 
 ---
+### Question 11: Count Records with Null Values in Car Column
+Write a query to count the total number of individuals who do not own a car (car is NULL).
+
+**Input Description:**
+- Count the rows where the car column has a NULL value.
+**Example Output:**
+| total_null_cars |
+|-----------------|
+| 2               |
+
+---
