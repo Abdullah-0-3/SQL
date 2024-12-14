@@ -115,3 +115,15 @@ Write a query to retrieve all columns, sorted by the salary column in descending
 | 2   | Riannon    | McCloid   | Business Development | Female | rmccloid1@jiathis.com    | NULL      | France    | Vannes       | 3              | NULL  | NULL                | 2007-09-18    | 240           |
 
 ---
+### Question 10: Retrieve Records with Specific Car
+Write a query to fetch all columns for individuals who own a Lexus.
+
+**Input Description:**
+- Filter the rows where the car column is 'Lexus'.
+- Return all columns.
+**Example Output:**
+| id  | first_name | last_name | department             | gender | email            | salary    | country   | city         | family_members | car   | job_title           | date_of_birth | project_count |
+|-----|------------|-----------|------------------------|--------|------------------|-----------|-----------|--------------|----------------|-------|---------------------|---------------|---------------|
+| 3   | Rodrigo    | Nodin     | Research and Development | Male   | rnodin2@sun.com | $6957.33  | Cambodia  | Kampong Speu | NULL           | Lexus | Environmental Tech  | 1991-09-17    | 259           |
+
+---
