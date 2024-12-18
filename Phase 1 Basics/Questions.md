@@ -148,3 +148,14 @@ Write a query to count the total number of individuals who do not own a car (car
 | 2               |
 
 ---
+### Question 12: Retrieve Employees by Country
+Write a query to fetch the first_name, last_name, and country for all individuals living in France.
+
+**Input Description:**
+- Filter the records where the country column is France.
+- Return the first_name, last_name, and country columns.
+
+**Example Output:**
+| first_name | last_name | country |
+|------------|-----------|---------|
+| Riannon    | McCloid   | France  |
