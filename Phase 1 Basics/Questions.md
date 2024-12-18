@@ -159,3 +159,18 @@ Write a query to fetch the first_name, last_name, and country for all individual
 | first_name | last_name | country |
 |------------|-----------|---------|
 | Riannon    | McCloid   | France  |
+
+---
+### Question 13: Retrieve Records with Specific Family Members Count
+Write a query to fetch all columns for individuals who have exactly 3 family_members.
+
+**Input Description:**
+- Filter the rows where the family_members column equals 3.
+- Return all columns.
+
+**Example Output:**
+| id  | first_name | last_name | department           | gender | email                 | salary | country | city   | family_members | car   | job_title | date_of_birth | project_count |
+|-----|------------|-----------|----------------------|--------|-----------------------|--------|---------|--------|----------------|-------|-----------|---------------|---------------|
+| 2   | Riannon    | McCloid   | Business Development | Female | rmccloid1@jiathis.com | NULL   | France  | Vannes | 3              | NULL  | NULL      | 2007-09-18    | 240           |
+
+---
